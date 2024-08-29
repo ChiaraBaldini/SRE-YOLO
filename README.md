@@ -22,35 +22,30 @@ If you want to use the SRE-YOLO-related datasets for research purposes, please f
 
 ## Installation
 
-Steps to install the project locally. Include system requirements, necessary packages, and configuration instructions.
+Steps to install the project locally (system requirements, necessary packages, and configuration instructions).
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/project-name.git
+git clone https://github.com/ChiaraBaldini/SRE-YOLO.git
 
 # Navigate to the project directory
-cd project-name
+cd SRE-YOLO
 
 # Install dependencies
-npm install  # or pip install -r requirements.txt for Python, etc.
+pip install -r requirements.txt
 
 # Start the application
 npm start    # or python app.py, etc.
-## Description
-
-An in-depth paragraph about your project and overview of use.
 
 ## Getting Started
 
 ### Dependencies
-
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
+- Python 3.8+
+- PyTorch 1.12+
+- CUDA (for NVIDIA GPU support)
 
 ### Installing
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
 
 ```
 
@@ -58,8 +53,6 @@ An in-depth paragraph about your project and overview of use.
 ```
 ### Executing program
 
-* How to run the program
-* Step-by-step bullets
 ```
 
 ## Authors
