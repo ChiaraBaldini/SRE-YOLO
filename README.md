@@ -58,7 +58,7 @@ npm start    # or python app.py, etc.
 ## Authors
 Contributors names and contact info
 For inquiries related to the paper, dataset or code, please contact:
-- Chiara Baldini  , [chiara.baldini@iit.it]
+- Chiara Baldini , [chiara.baldini@iit.it]
 
 ## Acknowledgments
 * This code is built on the [YOLOv8 GitHub repository](https://github.com/ultralytics/ultralytics).
