@@ -2,6 +2,7 @@
 ## Overview
 This project focuses on the development and implementation of SRE-YOLO, a DL model designed to assist less-experienced medical personnel in the real-time detection of laryngeal lesions from endoscopic White Light (WL) and Narrow-Band Imaging (NBI) images. Traditional diagnostic approaches rely heavily on endoscopic examination, which requires expert interpretation and may be limited by subjective assessment. To address these challenges, this approach integrates a YOLOv8 nano (YOLOv8n) baseline with a Super-Resolution (SR) branch during training to enhance lesion detection. The SR component is decoupled during inference to maintain the low computational demand of the YOLOv8n baseline. The proposed method was evaluated on a multi-center dataset encompassing diverse laryngeal pathologies and imaging modalities, demonstrating a 5% improvement in Average Precision (AP@IoU=0.5) in lesion detection compared to the YOLOv8n baseline while maintaining an inference speed of 58.8 Frames Per Second (FPS). 
 ## Results
+
 | Method | **mAP50** | **FPS** $\downarrow$ | **GFLOPs** $\downarrow$ |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | **YOLOv8**  |  |  | |
