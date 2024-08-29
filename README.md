@@ -52,14 +52,14 @@ An in-depth paragraph about your project and overview of use.
 * How/where to download your program
 * Any modifications needed to be made to files/folders
 
-### Executing program
-
-* How to run the program
-* Step-by-step bullets
 ```
 
 ## Usage
 ```
+### Executing program
+
+* How to run the program
+* Step-by-step bullets
 ```
 
 ## Authors
@@ -69,4 +69,4 @@ For inquiries related to the paper, dataset or code, please contact:
 
 ## Acknowledgments
 * This code is built on the [YOLOv8 GitHub repository](https://github.com/ultralytics/ultralytics).
-* The SR branch was 
+* The SR branch was implemented by adapting the version of [Zhang et al.](https://github.com/icey-zhang/SuperYOLO) to YOLOv8.
