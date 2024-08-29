@@ -14,8 +14,11 @@ This project focuses on the development and implementation of SRE-YOLO, a DL mod
 - [Acknowledgments](#acknowledgments)
 
 ## Introduction
+SRE-YOLO employs the nano version of YOLOv8 to detect lesion from input data. During training, features extracted at different level of the YOLO backbone were combined and augmented with the SR branch, which is based on the EDSR architecture. In the inference phase, SRE-YOLOm maintains the inference speed of the YOLOv8n baseline, i.e., 58.8 Frames Per Second (FPS) on a 48 GB NVIDIA RTX A6000 GPU, by decoupling the SR branch. the proposed method was evaluated, both internally and externally, on multi-center datasets encompassing diverse laryngeal pathologies and endoscopic imaging modalities. Comparative analyses against state-of-the-art deep learning methods highlighted the potential of SRE-YOLO in developing efficient DL-driven decision support systems for real-time detection of laryngeal lesions across different acquisition settings without increasing computational demands.
 
-A more detailed description of the project. You might include information on why it was created, what problems it solves, and who might benefit from it.
+Diagrams will be included upon paper acceptance.
+
+If you want to use the SRE-YOLO-related datasets for research purposes, please fill and return the following [DataRequestForm]().
 
 ## Installation
 
@@ -54,9 +57,10 @@ An in-depth paragraph about your project and overview of use.
 * How to run the program
 * Step-by-step bullets
 ```
-code blocks for commands
-```
+
 ## Usage
+```
+```
 
 ## Authors
 Contributors names and contact info
