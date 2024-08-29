@@ -34,9 +34,6 @@ cd SRE-YOLO
 # Install dependencies
 pip install -r requirements.txt
 
-# Start the application
-npm start    # or python app.py, etc.
-
 ## Getting Started
 
 ### Dependencies
