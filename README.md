@@ -8,7 +8,7 @@ This project focuses on the development and implementation of SRE-YOLO, a DL mod
 | **YOLOv8**  ||||
 | **SRE-YOLO** ||||
 
-**Note:** The code and further details will be made available here after the paper is accepted for publication in Computer Methods and Programs in Biomedicine.
+‼️ **Note:** The code and further details will be made available here after the paper is accepted for publication in Computer Methods and Programs in Biomedicine.
 
 ## Table of Contents
 - [Introduction](#introduction)
