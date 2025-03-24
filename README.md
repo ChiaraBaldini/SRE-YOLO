@@ -45,15 +45,23 @@ cd SRE-YOLO
 - PyTorch 1.8+
 - CUDA (for NVIDIA GPU support)
 
-# Install dependencies
+# Install dependencies (code  based on Ultralytics v8.0.192)
 pip install -r requirements.txt
 ```
 
 ## Usage
 ```
 ### Executing program
+import ultralytics
+from ultralytics import YOLO
+import sys
+import os
 
+model = YOLO("yolov8n.yaml")
+
+model.train(data='<your_dataset>.yaml', epochs=150, patience=50, imgsz=640, sr=True)
 ```
+When ```sr=True``` the additional SR branch is activated.
 
 ## Authors
 Contributors names and contact info
