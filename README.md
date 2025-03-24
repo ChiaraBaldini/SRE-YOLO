@@ -52,16 +52,14 @@ pip install -r requirements.txt
 ## Usage
 ```
 ### Executing program
-import ultralytics
-from ultralytics import YOLO
-import sys
-import os
+import ultralytics_sr
+from ultralytics_sr import YOLO
 
 model = YOLO("yolov8n.yaml")
 
 model.train(data='<your_dataset>.yaml', epochs=150, patience=50, imgsz=640, sr=True)
 ```
-When ```sr=True``` the additional SR branch is activated.
+When ```sr=True```, the additional SR branch is activated. You can also adjust the weight of the SR loss in [ultralytics_sr/nn/task.py]. By default, it is set to 0.1.
 
 ## Authors
 Contributors names and contact info
