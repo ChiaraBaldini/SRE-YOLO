@@ -7,8 +7,8 @@ To address these challenges, this approach integrates a YOLOv8 nano (YOLOv8n) ba
 
 | Method | **mAP50** | **FPS** | **GFLOPs** |
 |:---:|:---:|:---:|:---:|
-| **YOLOv8**  ||||
-| **SRE-YOLO** ||||
+| **YOLOv8**  |0.778|8.2|58.8|
+| **SRE-YOLO** |0.82|8.2|58.8|
 
 ‼️ **Note:** The code and further details will be made available here after the paper is accepted for publication in Computer Methods and Programs in Biomedicine.
 
