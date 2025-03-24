@@ -4,7 +4,7 @@ This project focuses on the development and implementation of SRE-YOLO, a DL mod
 
 To address these challenges, this approach integrates a YOLOv8 nano (YOLOv8n) baseline with a Super-Resolution (SR) branch during training to enhance lesion detection. The SR component is decoupled during inference to maintain the low computational demand of the YOLOv8n baseline. The proposed method was evaluated on a multi-center dataset encompassing diverse laryngeal pathologies and imaging modalities, demonstrating a 5% improvement in Average Precision (AP@IoU=0.5) in lesion detection compared to the YOLOv8n baseline while maintaining an inference speed of 58.8 Frames Per Second (FPS). 
 
-<img src"imgs\YOLOsr_diagram_with_modules (1).jpg" alt="Example Image" width="300"/>
+<img src="imgs\YOLOsr_diagram_with_modules (1).jpg" alt="Example Image" width="300"/>
 
 ## Results
 
