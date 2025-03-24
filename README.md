@@ -10,7 +10,7 @@ To address these challenges, this approach integrates a YOLOv8 nano (YOLOv8n) ba
 | **YOLOv8**  |0.77|8.2|58.8|
 | **SRE-YOLO** |0.82|8.2|58.8|
 
-‼️ **Note:** The code and further details will be made available here after the paper is accepted for publication in Computer Methods and Programs in Biomedicine.
+
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -24,8 +24,6 @@ To address these challenges, this approach integrates a YOLOv8 nano (YOLOv8n) ba
 
 ## Introduction
 SRE-YOLO employs the nano version of YOLOv8 to detect lesion from input data. During training, features extracted at different level of the YOLO backbone were combined and augmented with the SR branch, which is based on the EDSR architecture. In the inference phase, SRE-YOLOm maintains the inference speed of the YOLOv8n baseline, i.e., 58.8 Frames Per Second (FPS) on a 48 GB NVIDIA RTX A6000 GPU, by decoupling the SR branch. the proposed method was evaluated, both internally and externally, on multi-center datasets encompassing diverse laryngeal pathologies and endoscopic imaging modalities. Comparative analyses against state-of-the-art deep learning methods highlighted the potential of SRE-YOLO in developing efficient DL-driven decision support systems for real-time detection of laryngeal lesions across different acquisition settings without increasing computational demands.
-
-Diagrams will be included upon paper acceptance.
 
 If you want to use the SRE-YOLO-related datasets for research purposes, please fill and return the following [DataRequestForm]().
 
@@ -59,7 +57,7 @@ model = YOLO("yolov8n.yaml")
 
 model.train(data='<your_dataset>.yaml', epochs=150, patience=50, imgsz=640, sr=True)
 ```
-When ```sr=True```, the additional SR branch is activated. You can also adjust the weight of the SR loss in ultralytics_sr/nn/task.py. By default, it is set to 0.1.
+When ```sr=True```, the additional SR branch is activated. You can also adjust the weight of the SR loss in *ultralytics_sr/nn/task.py*. By default, it is set to 0.1.
 
 ## Authors
 Contributors names and contact info
