@@ -47,13 +47,8 @@ pip install -r requirements.txt
 
 ### Dependencies
 - Python 3.8+
-- PyTorch 1.12+
+- PyTorch 1.8+
 - CUDA (for NVIDIA GPU support)
-
-### Installing
-
-
-```
 
 ## Usage
 ```
@@ -68,13 +63,23 @@ For inquiries related to the paper, dataset or code, please contact:
 
 ## Acknowledgments
 * This code is built on the [YOLOv8 GitHub repository](https://github.com/ultralytics/ultralytics).
-* The SR branch was implemented by adapting the version of [Zhang et al.](https://github.com/icey-zhang/SuperYOLO) to YOLOv8.
+* The SR branch was implemented by adapting the version of [Zhang et al.](https://github.com/icey-zhang/SuperYOLO) to YOLOv8, as in [YOLOSR-WeaponDetection
+](https://github.com/daniebera/YOLOSR-WeaponDetection).
 We thank the authors for sharing the codes.
 
 ## Citation
 If our code is helpful to you, please cite:
 
 ```
-Chiara Baldini, Lucia Migliorelli, Daniele Berardini, Muhammad Adeel Azam, Claudio Sampieri, Alessandro Ioppi, Rakesh Srivastava, Giorgio Peretti, Leonardo S. Mattos, Improving real-time detection of laryngeal lesions in endoscopic images using a decoupled super-resolution enhanced YOLO,
-Computer Methods and Programs in Biomedicine, Volume 260, 2025, 108539, ISSN 0169-2607, https://doi.org/10.1016/j.cmpb.2024.108539
+@article{BALDINI2025108539,
+title = {Improving real-time detection of laryngeal lesions in endoscopic images using a decoupled super-resolution enhanced YOLO},
+author = {Chiara Baldini and Lucia Migliorelli and Daniele Berardini and Muhammad Adeel Azam and Claudio Sampieri and Alessandro Ioppi and Rakesh Srivastava and Giorgio Peretti and Leonardo S. Mattos},
+journal = {Computer Methods and Programs in Biomedicine},
+volume = {260},
+pages = {108539},
+year = {2025},
+issn = {0169-2607},
+doi = {https://doi.org/10.1016/j.cmpb.2024.108539},
+url = {https://www.sciencedirect.com/science/article/pii/S0169260724005327}
+}
 ```
