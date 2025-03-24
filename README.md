@@ -66,7 +66,7 @@ For inquiries related to the paper, dataset or code, please contact:
 * This code is built on the [YOLOv8 GitHub repository](https://github.com/ultralytics/ultralytics).
 * The SR branch was implemented by adapting the version of [Zhang et al.](https://github.com/icey-zhang/SuperYOLO) to YOLOv8, as in [YOLOSR-WeaponDetection
 ](https://github.com/daniebera/YOLOSR-WeaponDetection).
-We thank the authors for sharing the codes.
+* We thank the authors for sharing the codes.
 
 ## Citation
 If our code is helpful to you, please cite:
