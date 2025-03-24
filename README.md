@@ -40,15 +40,13 @@ git clone https://github.com/ChiaraBaldini/SRE-YOLO.git
 # Navigate to the project directory
 cd SRE-YOLO
 
-# Install dependencies
-pip install -r requirements.txt
-
-## Getting Started
-
 ### Dependencies
 - Python 3.8+
 - PyTorch 1.8+
 - CUDA (for NVIDIA GPU support)
+
+# Install dependencies
+pip install -r requirements.txt
 ```
 
 ## Usage
