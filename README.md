@@ -63,7 +63,7 @@ model.train(data='<your_dataset>.yaml', epochs=150, imgsz=640, sr=True)
 When ```sr=True```, the additional SR branch is activated. You can also adjust the weight of the SR loss in *ultralytics/nn/task.py*. By default, it is set to 0.1.
 
 ## Authors
-Contributors names and contact info
+Contributors names and contact info.
 For inquiries related to the paper, dataset or code, please contact:
 - Chiara Baldini , [chiara.baldini@iit.it]
 
